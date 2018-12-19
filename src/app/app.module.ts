@@ -34,8 +34,10 @@ import { BrowserModule } from "@angular/platform-browser";
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from "./app.Component";
 
+import { DataTablesModule } from 'angular-datatables';
 
 
 //*--------------------------Custom Components-------------------------------*//
@@ -48,7 +50,7 @@ import { AppComponent } from "./app.Component";
 
 
 @NgModule({
-    imports: [BrowserModule, FormsModule, HttpModule, 
+    imports: [BrowserModule, FormsModule, HttpModule, DataTablesModule,HttpClientModule,
 
         RouterModule.forRoot([
             {
