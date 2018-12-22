@@ -16,7 +16,6 @@ export class AboutComponent implements OnInit {
   dtOption:any;
 
   constructor() { }
-
   ngOnInit() {
 this.dtOption={
   "paging":true,  
